@@ -72,7 +72,7 @@ This agent builds API endpoints. It needs to know your framework (Express, FastA
 Handles builds and deployments to your local dev environment. Keep it locked down: only deploy to dev environments and require explicit approval. Give it build commands and deployment tools but make the boundaries very clear.
 
 - **What it does:** Runs local or dev builds, creates Docker images
-- **Example commands:** `npm run test`
+- **Example commands:** `npm run build`, `docker build .`, `npm run deploy:dev`
 - **Example boundaries:** Only deploy to dev, require user approval for anything with risk
 
 ---

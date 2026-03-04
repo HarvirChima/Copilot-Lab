@@ -89,7 +89,7 @@ Ask Copilot CLI to create the calculator functions based on the provided image:
 > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
 >
 > ```prompt
-> @images/js-calculator.png help me create a Node.js CLI calculator app
+> help me create a Node.js CLI calculator app
 > based only on the four basic math operations in this image.
 > Create the code and put it in the 'src' directory.
 > Make sure the calculator is commented with the operations it supports.
@@ -100,8 +100,7 @@ Ask Copilot CLI to create the calculator functions based on the provided image:
 > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
 >
 > ```prompt
-> Run and test the calculator functions with some example operations
-> shown in the image @images/calc-basic-operations.png.
+> Run and test the calculator functions with some example operations.
 > ```
 
 ### Create comprehensive tests
@@ -110,8 +109,6 @@ Ask Copilot CLI to create the calculator functions based on the provided image:
 >
 > ```prompt
 > Create comprehensive unit tests for all the calculator functions:
-> - Expand tests based on the following example:
->   - @images/calc-basic-operations.png
 > - Add these tests to a src/tests/calculator.tests.js file
 > - Use a popular Node.js testing framework if one isn't installed
 > - addition, subtraction, multiplication, and division

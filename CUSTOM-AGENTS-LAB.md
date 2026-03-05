@@ -17,7 +17,7 @@ In this lab you will build **five custom agents** using your own code. Bring a r
 Use a prompt like this in Copilot Chat or the Copilot CLI to generate a complete agent definition:
 
 ```
-Create a test agent for this repository. It should:
+Create a custom agent for me in .github/agents. This should be a test agent for this repository. It should:
 - Have the persona of a QA software engineer
 - Write tests for this codebase
 - Run tests and analyze results
